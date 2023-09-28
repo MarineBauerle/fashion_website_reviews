@@ -1,4 +1,4 @@
-# Amazon_reviews
+# Amazon fashion reviews
 
 [Project Description]
 
