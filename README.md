@@ -18,3 +18,7 @@ You can access the dataset used in this project from the following link:
 - [Amazon Review Data](https://nijianmo.github.io/amazon/index.html)
 
 In this project, I have used the subset named 'Amazon fashion'.
+
+The different uploaded files are to be read in this order: 
+
+ready for preprocessing.csv > preprocessed_data.py > preprocessed_amazon_fashion.csv > amazon_sentiment.py > sentiment_results.csv > overall count results.numbers > sentiment analysis report.pdf
