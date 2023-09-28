@@ -1,3 +1,6 @@
+From the dataset, and with SQL, I extracted the only columns I needed to perform a sentiment analysis: 'review_text' and 'summary'.
+
+
 review_text,summary
 "  Great product and price!","  Five Stars"
 "  Waaay too small. Will use for futur children!","  Oops!"
