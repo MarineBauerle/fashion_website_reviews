@@ -1,8 +1,17 @@
-Sentiment Category	  Total sentiment_results	  Average sentiment
-    positive	                310	                 202,0966
-    neutral	                    113	                     0
-    negative	                22	                  -8,611
+Sentiment Category	  
+    positive	                
+    neutral	                    
+    negative	              
 
+Total sentiment_results
+    310
+    113
+    22
+
+Average sentiment
+    202,0966
+    0
+    -8,611
 
 
 review_text,summary,cleaned_review,tokenized_review,sentiment_scores,compound_sentiment,sentiment_category
