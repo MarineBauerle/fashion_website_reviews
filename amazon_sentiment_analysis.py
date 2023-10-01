@@ -1,4 +1,4 @@
-> Preprocessing the data
+# Preprocessing the data
 
 import pandas as pd
 import re
@@ -53,9 +53,11 @@ df['tokenized_review'] = df['cleaned_review'].apply(tokenize_and_remove_stopword
 # Save the preprocessed data to a new CSV file
 df.to_csv('preprocessed_amazon_fashion.csv', index=False)
 
+# preprocessed_amazon_fashion.csv
 
 
-> Conducting the sentiment analysis using VADER lexicon
+
+# Conducting the sentiment analysis using VADER lexicon
 
 import nltk
 nltk.download('vader_lexicon')
