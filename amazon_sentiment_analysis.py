@@ -5,7 +5,7 @@ import re
 import spacy
 
 
-# Load dataset
+# Load dataset 'ready_for_preprocessing.csv'
 df = pd.read_csv('ready_for_preprocessing.csv')
 
 # Function to clean text
@@ -53,7 +53,7 @@ df['tokenized_review'] = df['cleaned_review'].apply(tokenize_and_remove_stopword
 # Save the preprocessed data to a new CSV file
 df.to_csv('preprocessed_amazon_fashion.csv', index=False)
 
-# preprocessed_amazon_fashion.csv
+# 'preprocessed_amazon_fashion.csv'
 
 
 
@@ -107,4 +107,4 @@ output_file_path = '/Users/marine/Desktop/py4e/sentiment_analysis_results.csv'
 df.to_csv(output_file_path, index=False)  # Changed 'sentiment_analysis_results_df' to 'df'
 
 
-# sentiment_analysis_results.csv
+# 'sentiment_analysis_results.csv'
