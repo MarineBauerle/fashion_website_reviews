@@ -6,7 +6,7 @@ import spacy
 
 
 # Load dataset
-df = pd.read_csv('text_summary.csv')
+df = pd.read_csv('ready_for_preprocessing.csv')
 
 # Function to clean text
 def clean_text(text):
@@ -101,7 +101,10 @@ average_sentiment = df['compound_sentiment'].mean()
 print("Average Sentiment Score:", average_sentiment)
 
 # Specify the file path
-output_file_path = '/Users/marine/Desktop/py4e/sentiment_results.csv'
+output_file_path = '/Users/marine/Desktop/py4e/sentiment_analysis_results.csv'
 
 # Save the DataFrame to a CSV file
-df.to_csv(output_file_path, index=False)  # Changed 'sentiment_results_df' to 'df'
+df.to_csv(output_file_path, index=False)  # Changed 'sentiment_analysis_results_df' to 'df'
+
+
+# sentiment_analysis_results.csv
