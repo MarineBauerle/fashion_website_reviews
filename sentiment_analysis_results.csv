@@ -1,3 +1,10 @@
+Sentiment Category	  Total sentiment_results	  Average sentiment
+    positive	                  310	                 202,0966
+    neutral	                    113	                     0
+    negative	                  22	                  -8,611
+
+
+
 review_text,summary,cleaned_review,tokenized_review,sentiment_scores,compound_sentiment,sentiment_category
   Great product and price!,  Five Stars,  great product and price,   great product price,"{'neg': 0.0, 'neu': 0.406, 'pos': 0.594, 'compound': 0.6588}",0.6588,positive
   Waaay too small. Will use for futur children!,  Oops!,  waaay too small will use for futur children,   waaay small use futur children,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,neutral
