@@ -1,20 +1,65 @@
-# Amazon fashion reviews
+# Amazon Fashion Reviews - Sentiment Analysis
 
-[Project Description]
+## Project Description
 
-In this project, I conducted sentiment analysis on Amazon product reviews to gain insights into customer opinions and emotions. 
+This project undertakes a comprehensive sentiment analysis of Amazon fashion product reviews, aiming to extract and understand the underlying emotions and opinions of customers. The goal is to generate actionable insights that businesses can use to enhance their products, customer service, and overall customer experience.
 
-The first crucial step involved preprocessing of the data, including tasks such as text cleaning, handling missing values, and transforming the text into a format suitable for analysis. 
-Leveraging the power of natural language processing, I employed the VADER (Valence Aware Dictionary and sEntiment Reasoner) tool to assess the sentiment of each review. VADER, known for its effectiveness in handling sentiments expressed in social media, provided a robust framework for understanding the nuanced emotions conveyed in the reviews. By employing this tool, I aimed to unravel the sentiments underlying customer feedback, contributing valuable insights for businesses looking to enhance their products and customer experiences. 
+## Methodology
 
-The project showcases the synergy between sophisticated data preprocessing techniques and advanced sentiment analysis tools, demonstrating their collective efficacy in extracting meaningful information from vast amounts of textual data.
+### 1. Data Collection
 
+**Source**: Amazon's fashion product reviews.
 
+The raw dataset containing Amazon fashion reviews is located in the `data/raw/` directory as `Original_sample.csv`.
+
+### 2. Data Preprocessing
+
+#### Raw to Processed Data:
+
+Data preprocessing is a foundational step to ensure the quality of the analysis. The steps involve:
+
+- **Text Cleaning**: Removal of any unwanted characters, URLs, numbers, and standardizing text data.
+- **Handling Missing Values**: Identifying and addressing any null or missing values in the dataset.
+- **Text Transformation**: Tokenization, stemming, and lemmatization to break down the reviews and reduce words to their base forms.
+
+Processed data files can be found in the `data/processed/` directory:
+
+- `processed_amazon_fashion.csv`: Contains cleaned and structured reviews.
+- `aggregated_data.csv`: Grouped data based on certain criteria (e.g., product type, brand).
+
+### 3. Sentiment Analysis
+
+Utilizing the VADER (Valence Aware Dictionary and sEntiment Reasoner) sentiment analysis tool, each review was evaluated for its sentiment score. VADER is particularly effective for sentiment analysis on social media and short texts, as it can understand the context of certain words and nuances like capitalization and punctuation.
+
+The sentiment scores were categorized as:
+
+- **Positive**
+- **Negative**
+- **Neutral**
+
+The results of the sentiment analysis can be found in:
+
+- `results_sentiment_analysis.csv` in the `data/processed/` directory.
+
+### 4. Visualization
+
+Key insights and patterns derived from the sentiment analysis were visualized using Python's visualization libraries and exported as a Tableau dashboard. This allows for an interactive exploration of the data, facilitating a deeper understanding of customer sentiments across various product categories.
+
+Visualizations can be found in the `results/` directory:
+
+- `Tableau sentiment analysis.pdf`: A snapshot of the Tableau dashboard.
+- `overall count results.pdf`: Graphical representation of overall sentiment scores.
+
+### 5. Analysis & Conclusions
+
+From the sentiment analysis, one can draw conclusions about:
+
+- Overall customer satisfaction levels for Amazon fashion products.
+- Specific product categories or brands that might require improvements.
+- Trends in customer sentiments over time or across different product launches.
 
 ## Dataset
 
-You can access the dataset used in this project from the following link:
-
-- [Amazon Review Data](https://nijianmo.github.io/amazon/index.html)
+You can access the dataset used in this project [Amazon Review Data](https://nijianmo.github.io/amazon/index.html)
 
 In this project, I have used the subset named 'Amazon fashion'.
