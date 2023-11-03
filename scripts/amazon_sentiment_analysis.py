@@ -5,7 +5,7 @@ import pandas as pd
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 # Load the preprocessed dataset
-df = pd.read_csv('preprocessed_amazon_fashion.csv')
+df = pd.read_csv('processed_amazon_fashion.csv')
 
 # Initialize the sentiment analyzer
 sia = SentimentIntensityAnalyzer()
@@ -40,7 +40,7 @@ average_sentiment = df['compound_sentiment'].mean()
 print("Average Sentiment Score:", average_sentiment)
 
 # Specify the file path
-output_file_path = '/Users/marine/Desktop/py4e/sentiment_results.csv'
+output_file_path = '/Users/marine/Desktop/py4e/results_sentiment_analysis.csv'
 
 # Save the DataFrame to a CSV file
-df.to_csv(output_file_path, index=False)  # Changed 'sentiment_results_df' to 'df'
+df.to_csv(output_file_path, index=False)  # Changed 'results_sentiment_analysis_df' to 'df'
