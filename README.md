@@ -1,16 +1,14 @@
-# Amazon Fashion Reviews - Sentiment Analysis
+# Fashion Reviews - Sentiment Analysis
 
 ## Project Description
 
-This project undertakes a comprehensive sentiment analysis of Amazon fashion product reviews, aiming to extract and understand the underlying emotions and opinions of customers. The goal is to generate actionable insights that businesses can use to enhance their products, customer service, and overall customer experience.
+This project undertakes a comprehensive sentiment analysis of fashion product reviews, aiming to extract and understand the underlying emotions and opinions of customers. The goal is to generate actionable insights that businesses can use to enhance their products, customer service, and overall customer experience.
 
 ## Methodology
 
 ### 1. Data Collection
 
-**Source**: Amazon's fashion product reviews.
-
-The raw dataset containing Amazon fashion reviews is located in the `data/raw/` directory as `Original_sample.csv`.
+The raw dataset containing fashion reviews is located in the `data/raw/` directory as `Original_sample.csv`.
 
 ### 2. Data Preprocessing
 
@@ -52,14 +50,14 @@ Visualizations can be found in the `results/` directory:
 
 ### 5. Analysis & Conclusions
 
-From the sentiment analysis, one can draw conclusions about:
+From the sentiment analysis, one can conclude about:
 
-- Overall customer satisfaction levels for Amazon fashion products.
+- Overall customer satisfaction levels for the website's fashion products.
 - Specific product categories or brands that might require improvements.
 - Trends in customer sentiments over time or across different product launches.
 
 ## Dataset
 
-You can access the dataset used in this project [Amazon Review Data](https://nijianmo.github.io/amazon/index.html)
+You can access the dataset used in this project [Fashion Review Data](https://nijianmo.github.io/amazon/index.html)
 
 In this project, I have used the subset named 'Amazon fashion'.
