@@ -48,4 +48,4 @@ def tokenize_and_remove_stopwords(text):
 df['tokenized_review'] = df['cleaned_review'].apply(tokenize_and_remove_stopwords)
 
 # Save the preprocessed data to a new CSV file
-df.to_csv('processed_amazon_fashion.csv', index=False)
+df.to_csv('processed_fashion_reviews.csv', index=False)
